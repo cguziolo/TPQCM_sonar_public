@@ -22,7 +22,7 @@ class Player(object):
     
     @check
     def getInput(self):
-        piece = int(input("Enter a position 1-9: ")) - 1
+        piece = int(input("Enter a position, e.g. 1-9: ")) - 1
         assert 0 <= piece
         assert 9 >= piece
         return piece
